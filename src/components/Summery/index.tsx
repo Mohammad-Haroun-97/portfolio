@@ -1,0 +1,128 @@
+import { component$ } from '@builder.io/qwik';
+
+export const Summery = component$(() => {
+    return (
+        <div class="relative mb-12 flex w-full flex-col gap-4 px-2 md:mb-0 md:w-min md:p-3 md:px-4">
+            <div class="relative mx-auto overflow-hidden w-72 h-72 md:w-[296px] md:h-[296px] pointer-events-none">
+                <span
+                    id="animatedImage"
+                    class="absolute left-0 top-0 h-full w-full animate-spin rounded-full duration-20000"
+                ></span>
+                <span class="absolute left-[4px] top-[4px] h-[calc(100%-8px)] w-[calc(100%-8px)] rounded-full bg-auto transition-all"></span>
+                <img
+                    src="/images/pp.jpg"
+                    alt="Osaid Profile Picture"
+                    class="absolute left-[7px] top-[7px] h-[calc(100%-14px)] w-[calc(100%-14px)] rounded-full grayscale-[0.1]"
+                />
+            </div>
+            <span class="top-[312px] left-0 z-20 flex w-full flex-col bg-auto p-3 text-center transition-all md:absolute md:text-left">
+                <span class="text-2xl font-semibold">Osaid Alhomedy</span>
+                <span class="text-lg">2 years of experience</span>
+            </span>
+            <div class="sticky top-0 left-0 flex flex-col gap-4 md:pt-16">
+                <a href="/images/pp.jpg" target="_blank" rel="noreferrer nofollow">
+                    <button
+                        aria-label="Download CV"
+                        class="rounded-md border border-details bg-misc font-medium shadow-sm transition-all hover:bg-details w-full text-sm py-1 px-4"
+                    >
+                        📃 Download CV
+                    </button>
+                </a>
+                <span class="flex flex-wrap justify-center text-center md:justify-start md:text-left">
+                    <h1 class='text-xl'>🌟 Full Stack Developer 🌟</h1>
+                    <h3 class='text-md'>
+                        Creating powerful web applications, one stack at a time.
+                    </h3>
+                </span>
+                <div class="flex flex-col items-center gap-2 bg-auto transition-all md:items-start">
+                    <span class="font-semibold">Preferences</span>
+                    <div class="flex w-80 flex-wrap justify-center gap-2 md:w-full">
+                        <span class="bg-[#FEFEFE] flex h-16 w-16 items-center justify-center rounded-full border-4 border-[#FEFEFE] p-1 shadow-inner drop-shadow-center-2xl">
+                            <img
+                                src="/icons/JavaIcon.svg"
+                                width="49"
+                                height="49"
+                                alt="java logo"
+                            />
+                        </span>
+                        <span class="bg-[#FEFEFE] flex h-16 w-16 items-center justify-center rounded-full border-4 border-[#FEFEFE] p-1 shadow-inner drop-shadow-center-2xl">
+                            <img
+                                src="/icons/SpringIcon.svg"
+                                width="49"
+                                height="49"
+                                alt="spring logo"
+                            />
+                        </span>
+                        <span class="bg-[#FEFEFE] flex h-16 w-16 items-center justify-center rounded-full border-4 border-[#FEFEFE] p-1 shadow-inner drop-shadow-center-2xl">
+                            <img
+                                src="/icons/TailwindIcon.svg"
+                                width="49"
+                                height="49"
+                                alt="tailwind logo"
+                            />
+                        </span>
+                        <span class="bg-[#FEFEFE] flex h-16 w-16 items-center justify-center rounded-full border-4 border-[#FEFEFE] p-1 shadow-inner drop-shadow-center-2xl">
+                            <img
+                                src="/icons/ReactIcon.svg"
+                                width="49"
+                                height="49"
+                                alt="react logo"
+                            />
+                        </span>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center gap-1 md:items-start">
+                    <span class="font-semibold">Contact</span>
+                    <a
+                        target="_blank"
+                        href="mailto:o.alhomedy@gmail.com"
+                        class="flex select-all items-center gap-2 text-sm"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokewidth="1.5"
+                            stroke="currentColor"
+                            class="h-4 w-4"
+                            q:key="0t_0"
+                            strokeWidth="1.5"
+                        >
+                            <path
+                                strokelinecap="round"
+                                strokelinejoin="round"
+                                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                            ></path>
+                        </svg>
+                        <span>o.alhomedy@gmail.com</span>
+                    </a>
+                    <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/osaid-alhomedy/"
+                        class="flex items-center gap-2 text-sm"
+                    >
+                        <svg
+                            viewBox="0 0 21 21"
+                            xmlns="http://www.w3.org/2000/svg"
+                            strokewidth="1.5"
+                            stroke="currentColor"
+                            class="h-4 w-4 fill-font transition-all"
+                            q:key="nE_0"
+                            strokeWidth="1.5"
+                        >
+                            <path
+                                d="M19.479 0L1.58301 0C0.72699 0 0 0.677002 0 1.51099L0 19.488C0 20.323 0.47699 21 1.33301 21L19.229 21C20.086 21 21 20.323 21 19.488L21 1.51099C21 0.677002 20.336 0 19.479 0L19.479 0ZM8 8L10.827 8L10.827 9.44092L10.858 9.44092C11.289 8.66406 12.562 7.875 14.136 7.875C17.157 7.875 18 9.479 18 12.45L18 18L15 18L15 12.9971C15 11.667 14.469 10.5 13.227 10.5C11.719 10.5 11 11.521 11 13.197L11 18L8 18L8 8L8 8ZM3 18L6 18L6 8L3 8L3 18L3 18ZM6.375 4.5C6.375 5.53589 5.53601 6.375 4.5 6.375C3.46399 6.375 2.625 5.53589 2.625 4.5C2.625 3.46411 3.46399 2.625 4.5 2.625C5.53601 2.625 6.375 3.46411 6.375 4.5L6.375 4.5Z"
+                                id="Forma"
+                                fill-rule="evenodd"
+                                stroke="none"
+                            ></path>
+                        </svg>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    );
+});
