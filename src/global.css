@@ -2,6 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --white: #f1f3f4;
+  --black: #1e1e1e;
+  --blackalt: #2c3647;
+  --borderLight: #1b1f2426;
+  --borderDark: #a5bedd26;
+  --fontAlt: #9d9d9d;
+  --fontMain: #49494a;
+  --titleAlt: #d4d4d4;
+  --titleMain: #000000;
+  --font: var(--fontMain);
+  --title: var(--titleMain);
+  --theme1main: #b721ff;
+  --theme1secondary: #21d4fd;
+  --theme2main: #7e00de;
+  --theme2secondary: #ff3f85;
+  --theme3main: #fc4289;
+  --theme3secondary: #ee7752;
+  --theme4main: #ee7752;
+  --theme4secondary: #f6d302;
+  --theme5main: #1b86ac;
+  --theme5secondary: #23d5ab;
+  --theme6main: #23d5ab;
+  --theme6secondary: #f6d302;
+  --themeMiscLight: #f3f4f6;
+  --themeMiscDark: #3b434b;
+  --border: var(--borderLight);
+  --themeBackground: var(--white);
+  --themeMisc: var(--themeMiscLight);
+  --themeFont: var(--black);
+  --themeMain: var(--theme1main);
+  --themeSecondary: var(--theme1secondary);
+  --themeColorFont: var(--chakra-colors-whiteAlpha-900);
+  --chakra-colors-gray-800: #171923;
+  --chakra-colors-whiteAlpha-900: RGBA(255, 255, 255, .92);
+  --cursor-opacity: 0;
+  --mix-blend: darken;
+}
+
 #animatedImage {
-  background-image: linear-gradient(40deg, #b721ff, #21d4fd);
+  background-image: linear-gradient(
+    40deg,
+    var(--theme1main),
+    var(--theme1secondary)
+  );
+}
+
+#hiddenHeaderBar {
+  animation-duration: 10s;
+  background-image: linear-gradient(
+    40deg,
+    var(--theme1main),
+    var(--theme1secondary)
+  );
+}
+
+.bg-auto {
+  background-color: var(--themeBackground);
 }
