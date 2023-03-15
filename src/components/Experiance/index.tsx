@@ -2,10 +2,9 @@ import { component$, JSXChildren, useSignal } from "@builder.io/qwik";
 
 export const Experience = component$(() => {
   const getExperience = (): JSXChildren => {
-    const today: Date = new Date();
-    const start: Date = new Date(2022, 7, 1);
-    const diff: number = today.getTime() - start.getTime();
-    const diffMonths: number = Math.floor(diff / (1000 * 60 * 60 * 24 * 30));
+    const diff: number =
+      new Date().getTime() - new Date("2022-07-01").getTime();
+    const diffMonths: number = Math.ceil(diff / (1000 * 60 * 60 * 24 * 30));
     return diffMonths.toString();
   };
 
@@ -38,17 +37,17 @@ export const Experience = component$(() => {
                 </div>
               </div>
               <ul class="flex flex-col gap-1 pl-1">
-                <li class="list-disc-custom flex text-sm">
-                  <h3>
-                    Frontend maintenance for web applications related to the
-                    telecommunications sector
-                  </h3>
+                <li class="flex text-sm">
+                  <h3 class="font-semibold">Java Software Developer</h3>
                 </li>
-                <li class="list-disc-custom flex text-sm">
-                  <h3>
-                    Frontend maintenance for web applications related to the
-                    tourism and hotel sector
-                  </h3>
+                <li class="flex text-sm">
+                  <ul>
+                    <li class="list-disc-custom flex">
+                      Assist the instructor in the development of course
+                      materials, such as lecture slides, assignments, and
+                      assessments
+                    </li>
+                  </ul>
                 </li>
               </ul>
               <div class="flex flex-wrap gap-2">
@@ -180,22 +179,39 @@ export const Experience = component$(() => {
                     Luminus Technical University College LTUC
                   </p>
                   <span class="rounded-full border border-details px-2 py-1 text-xs">
-                    {experience.value} months
+                    7 months
                   </span>
                 </div>
               </div>
               <ul class="flex flex-col gap-1 pl-1">
-                <li class="list-disc-custom flex text-sm">
-                  <h3>
-                    Frontend maintenance for web applications related to the
-                    telecommunications sector
+                <li class="flex text-sm">
+                  <h3 class="font-semibold">
+                    Software Development Teaching Assistant
                   </h3>
                 </li>
-                <li class="list-disc-custom flex text-sm">
-                  <h3>
-                    Frontend maintenance for web applications related to the
-                    tourism and hotel sector
-                  </h3>
+                <li class="flex text-sm">
+                  <ul>
+                    <li class="list-disc-custom flex">
+                      Assist the instructor in the development of course
+                      materials, such as lecture slides, assignments, and
+                      assessments
+                    </li>
+                    <li class="list-disc-custom flex">
+                      Conduct review sessions and tutorials for students
+                    </li>
+                    <li class="list-disc-custom flex">
+                      Assist in the delivery of lectures, including leading
+                      discussions, demonstrations, and answering questions
+                    </li>
+                    <li class="list-disc-custom flex">
+                      Provide support and guidance to students as they complete
+                      assignments and projects
+                    </li>
+                    <li class="list-disc-custom flex">
+                      Grade assignments and provide constructive feedback to
+                      students
+                    </li>
+                  </ul>
                 </li>
               </ul>
               <div class="flex flex-wrap gap-2">

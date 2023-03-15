@@ -69,6 +69,19 @@ html {
   );
 }
 
+.list-disc-custom:before {
+  background-color: var(--themeSecondary);
+  content: "";
+  display: inline-block;
+  max-height: 0.3rem;
+  min-height: 0.3rem;
+  max-width: 0.3rem;
+  min-width: 0.3rem;
+  margin-right: 5px;
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
 #animatedImage {
   background-image: linear-gradient(
     40deg,
