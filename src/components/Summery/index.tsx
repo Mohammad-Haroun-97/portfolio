@@ -20,32 +20,33 @@ export const Summery = component$(() => {
         <span class="text-lg">2 years of experience</span>
       </span>
       <div class="sticky top-0 left-0 flex flex-col gap-4">
-        <span class="z-10 mb-2 hidden h-[48.7px] items-center gap-2 border-b border-details bg-auto p-2 transition-all md:flex">
-          <div class="relative  h-9 w-9 pointer-events-none">
+        <span class="z-10 hidden md:flex mb-2 h-[48.7px] items-center gap-2 border-b border-details bg-auto p-2 transition-all">
+          <div class="relative h-9 w-9 pointer-events-none">
             <span
               id="hiddenHeaderBar"
-              class="absolute left-0 top-0 h-full w-full animate-spin rounded-full duration-20000"
+              class="absolute left-0 top-0 h-full w-full animate-spin rounded-full duration-1000"
             ></span>
             <span class="absolute  rounded-full bg-auto transition-all"></span>
             <img
               src="/images/pp.jpg"
-              alt="jose aguilar photo"
+              alt="Osaid Alhomedy photo"
               class="absolute inset-0.5 h-8 w-8 rounded-full grayscale-[0.1]"
             />
           </div>
           <span class="flex items-baseline gap-2 text-xs">
-            <span class="text-sm font-semibold">José Aguilar</span> +3 years 6
-            months
+            <span class="text-sm font-semibold">Osaid Alhomedy</span> 2 years of
+            experience
           </span>
         </span>
         <a
           href="https://drive.google.com/file/d/17n32lv0XkhRBDRhk_p-QsXr_b4KhoaGU/view?usp=share_link"
           target="_blank"
           rel="noreferrer nofollow"
+          class="flex justify-center"
         >
           <button
-            aria-label="Download CV"
-            class="rounded-md border border-details bg-misc font-medium shadow-sm transition-all hover:bg-details w-full text-sm py-1 px-4"
+            aria-label="Download Resume"
+            class="rounded-md border border-details bg-misc font-medium shadow-sm transition-all hover:bg-details w-2/3 md:w-full text-sm py-1 px-4"
           >
             Download Resume 📃
           </button>

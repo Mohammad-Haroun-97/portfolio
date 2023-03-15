@@ -4,8 +4,29 @@ import { Summery } from "~/components/Summery";
 import { Main } from "~/components/Main";
 
 export default component$(() => {
+  // const mouse = useSignal({
+  //   x: 0,
+  //   y: 0,
+  // });
+  // useOn(
+  //   "mousemove",
+  //   $((event: Event) => {
+  //     const e = event as MouseEvent;
+  //     mouse.value.x = e.clientX;
+  //     mouse.value.y = e.clientY;
+  //     document.getElementById("tooltip")!.style.transform = `translate(${
+  //       mouse.value.x - 20
+  //     }px, ${mouse.value.y - 10}px)`;
+  //     document.getElementById("tooltip")!.style.opacity = "1";
+  //   })
+  // );
   return (
     <div class="w-full bg-auto text-font transition-all">
+      {/* <span
+        id="tooltip"
+        class="hidden pointer-events-none z-50 h-10 w-10 items-center rounded-full bg-secondary opacity-cursor transition-opacity md:block"
+        data-popper-placement="bottom"
+      ></span> */}
       <div class="container mx-auto flex w-full max-w-[1280px] flex-col pt-5 md:flex-row md:px-6 md:pt-24">
         <Summery />
         <Main />

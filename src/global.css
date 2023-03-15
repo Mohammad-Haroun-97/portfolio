@@ -36,9 +36,37 @@
   --themeSecondary: var(--theme1secondary);
   --themeColorFont: var(--chakra-colors-whiteAlpha-900);
   --chakra-colors-gray-800: #171923;
-  --chakra-colors-whiteAlpha-900: RGBA(255, 255, 255, .92);
+  --chakra-colors-whiteAlpha-900: RGBA(255, 255, 255, 0.92);
   --cursor-opacity: 0;
   --mix-blend: darken;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family: Roboto, ui-sans-serif, system-ui;
+  font-feature-settings: normal;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar-button:increment,
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-image: linear-gradient(
+    40deg,
+    var(--themeSecondary),
+    var(--themeMain)
+  );
 }
 
 #animatedImage {
@@ -60,4 +88,38 @@
 
 .bg-auto {
   background-color: var(--themeBackground);
+}
+
+.text-font {
+  color: var(--themeFont);
+}
+
+#tooltip {
+  mix-blend-mode: var(--mix-blend);
+  position: absolute;
+  inset: 0px auto auto 0px;
+  margin: 0px;
+  opacity: 0;
+}
+
+.bg-misc {
+  background-color: var(--themeMisc);
+}
+
+.bg-details {
+  background-color: var(--border);
+}
+
+.bg-secondary {
+  background-color: var(--themeSecondary);
+}
+
+.from-secondary {
+  --tw-gradient-from: var(--themeSecondary);
+  --tw-gradient-to: rgb(255 255 255 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-main {
+  --tw-gradient-to: var(--themeMain);
 }
