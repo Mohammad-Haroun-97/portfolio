@@ -22,12 +22,8 @@ export default component$(() => {
   // );
   return (
     <div class="w-full bg-auto text-font transition-all">
-      {/* <span
-        id="tooltip"
-        class="hidden pointer-events-none z-50 h-10 w-10 items-center rounded-full bg-secondary opacity-cursor transition-opacity md:block"
-        data-popper-placement="bottom"
-      ></span> */}
       <div class="container mx-auto flex w-full max-w-[1280px] flex-col pt-5 md:flex-row md:px-6 md:pt-24">
+        {/* <ScrollDown /> */}
         <Summery />
         <Main />
       </div>

@@ -1,6 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { Certificates } from "../Certificates";
 import { Experience } from "../Experiance";
+import { Friends } from "../Friends";
 import { Knowledge } from "../Knowledge";
 
 export const Main = component$(() => {
@@ -25,6 +26,7 @@ export const Main = component$(() => {
         <Experience />
         <Certificates />
         <Knowledge />
+        <Friends />
       </div>
     </div>
   );
