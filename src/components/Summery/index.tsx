@@ -34,8 +34,7 @@ export const Summery = component$(() => {
             />
           </div>
           <span class="flex items-baseline gap-2 text-xs">
-            <span class="text-sm font-semibold">Osaid Alhomedy</span> 2 years of
-            experience
+            <span class="text-sm font-semibold">Osaid Alhomedy</span>
           </span>
         </span>
         <a
