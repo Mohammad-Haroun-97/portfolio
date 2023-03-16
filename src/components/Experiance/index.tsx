@@ -76,11 +76,11 @@ export const Experience = component$(() => {
         },
         {
           skillAlt: "html logo",
-          skillLogo: "/icons/HTMLIcon.svg",
+          skillLogo: "/icons/HtmlIcon.svg",
         },
         {
           skillAlt: "css logo",
-          skillLogo: "/icons/CSSIcon.svg",
+          skillLogo: "/icons/CssIcon.svg",
         },
         {
           skillAlt: "git logo",
