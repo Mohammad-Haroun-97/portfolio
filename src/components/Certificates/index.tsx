@@ -1,40 +1,9 @@
-import type { JSXChildren } from "@builder.io/qwik";
 import { component$ } from "@builder.io/qwik";
-
-type Certificate = {
-  name: JSXChildren;
-  comapny: JSXChildren;
-  logo: string;
-  alt: string;
-  badge: {
-    href: string;
-    src: string;
-    alt: string;
-  };
-  description: JSXChildren[];
-};
+import type { CertificateT } from "./data";
+import { data } from "./data";
 
 export const Certificates = component$(() => {
-  const certificates: Certificate[] = [
-    {
-      name: "AWS Certified Cloud Practitioner",
-      comapny: "Amazon",
-      logo: "/icons/AWSIcon.svg",
-      alt: "AWS Logo",
-      badge: {
-        href: "https://www.credly.com/badges/6db6a0d6-2e3f-4614-a3f5-cbb5a09aca22/public_url",
-        src: "/images/CCPBadge.png",
-        alt: "AWS Badge",
-      },
-      description: [
-        "Fundamental concepts of AWS cloud computing, including the benefits, different deployment models, and the global infrastructure.",
-        "Recognize the AWS shared responsibility model, security and compliance processes, and access management.",
-        "AWS core services and their features, as well as the basic architecture of AWS.",
-        "AWS billing and pricing models, account structures, and cost optimization practices.",
-        "Understand the different support plans available to AWS customers, as well as the various documentation and training resources available."
-      ],
-    },
-  ];
+  const certificates: CertificateT[] = data;
   return (
     <div class="md:scroll-m-16">
       <div>
@@ -69,10 +38,7 @@ export const Certificates = component$(() => {
               </div>
               <div class="flex items-center justify-center gap-2 w-full sm:w-2/3 md:w-1/2">
                 <span class="rounded-lg bg-misc p-1 transition-all hover:scale-110">
-                  <a
-                    href={certificate.badge.href}
-                    target="_blank"
-                  >
+                  <a href={certificate.badge.href} target="_blank">
                     <img
                       src={certificate.badge.src}
                       width="100"
