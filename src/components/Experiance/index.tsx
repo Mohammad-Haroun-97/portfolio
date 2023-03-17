@@ -105,7 +105,7 @@ export const Experience = component$(() => {
       ],
     },
     {
-      companyName: "Luminus Technical University College LTUC",
+      companyName: "Luminus University LTUC",
       companyLogo: "/images/LTUCLogo.png",
       wideCompanyLogo: true,
       position: "Software Development Teaching Assistant",
