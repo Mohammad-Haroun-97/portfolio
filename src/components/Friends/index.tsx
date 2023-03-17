@@ -19,20 +19,20 @@ export const Friends = component$(() => {
     {
       name: "Bara'a Al-Osaily",
       image: "https://avatars.githubusercontent.com/u/81553898?v=4",
-      description: ["Capella Solutions", "Software Developer 🤓"],
+      description: ["Capella Solutions", "Software Developer 🌯"],
       link: "https://github.com/baraaAlosaily",
     },
     {
       name: "Rahaf Al-Jazzazi",
       image: "https://avatars.githubusercontent.com/u/83532535?v=4",
-      description: ["Intrasoft Middle East", "Frontend Developer 🤩"],
+      description: ["Intrasoft Middle East", "Frontend Developer 👩‍🎨"],
       link: "https://github.com/RahafJ96",
     },
     {
       name: "Ghadeer Khasawneh",
       image: "https://avatars.githubusercontent.com/u/83525457?v=4",
 
-      description: ["Sociumtech", "Fullstack Developer 🤗"],
+      description: ["Sociumtech", "Fullstack Developer 👷‍♀️"],
       link: "https://github.com/GhadeerKh9",
     },
     {
@@ -48,7 +48,7 @@ export const Friends = component$(() => {
     {
       name: "Mohammad Alzoubi",
       image: "https://avatars.githubusercontent.com/u/83534673?v=4",
-      description: ["OPTIMIZA", "Fullstack Developer 🤑"],
+      description: ["OPTIMIZA", "Fullstack Developer 🍕"],
       link: "https://github.com/macRos-Alzoubi",
     },
     {
@@ -61,7 +61,7 @@ export const Friends = component$(() => {
       name: "Majd Khasawneh",
       image:
         "https://media.licdn.com/dms/image/D4E03AQHZwgfgAPW1YA/profile-displayphoto-shrink_800_800/0/1665082714161?e=1684368000&v=beta&t=bX40raFlUj5edzQ87ctRVO7NVdwEcDou1W5Zvmbh_54",
-      description: ["MBC Shahid 😎", "Java Developer"],
+      description: ["MBC Shahid", "Java Developer 🐱‍👤"],
       link: "https://www.linkedin.com/in/majd-khasawneh-687695192/",
     },
     {
