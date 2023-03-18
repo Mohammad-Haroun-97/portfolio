@@ -1,11 +1,4 @@
-import {
-  $,
-  component$,
-  useOn,
-  useOnDocument,
-  useOnWindow,
-  useSignal,
-} from "@builder.io/qwik";
+import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { Summery } from "~/components/Summery";
 import { Main } from "~/components/Main";
