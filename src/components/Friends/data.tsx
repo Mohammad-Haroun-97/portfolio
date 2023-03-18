@@ -59,7 +59,7 @@ export const data: FriendsT[] = [
     name: "Majd Khasawneh",
     image:
       "https://media.licdn.com/dms/image/D4E03AQHZwgfgAPW1YA/profile-displayphoto-shrink_800_800/0/1665082714161?e=1684368000&v=beta&t=bX40raFlUj5edzQ87ctRVO7NVdwEcDou1W5Zvmbh_54",
-    description: ["MBC Shahid", "Java Developer 🐱‍👤"],
+    description: ["MBC Shahid", "Java Developer 🎮"],
     link: "https://www.linkedin.com/in/majd-khasawneh-687695192/",
   },
   {
