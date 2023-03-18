@@ -52,9 +52,9 @@ export const Summery = component$(() => {
         </a>
         <span class="flex flex-wrap justify-center md:justify-start">
           <h1 class="text-xl text-center">Full Stack Developer 🔥 (⌐■_■)</h1>
-          <h3 class="text-md mt-2 text-left px-6 md:px-0">
+          <h2 class="text-md mt-2 text-left px-6 md:px-0">
             Creating powerful web applications, one stack at a time.
-          </h3>
+          </h2>
         </span>
         <div class="flex flex-col items-center gap-2 bg-auto transition-all md:items-start">
           <span class="font-semibold">Prefer Working With</span>
