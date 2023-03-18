@@ -21,7 +21,7 @@ export const Experience = component$(() => {
                   <img
                     src={experience.companyLogo?.toString()}
                     alt={experience.companyName?.toString()}
-                    class={experience.wideCompanyLogo ? "h-7 w-10" : "h-7 w-7"}
+                    class={experience.wideCompanyLogo ? "h-7 w-11" : "h-7 w-7"}
                   />
                   <div class="flex items-baseline gap-2">
                     <p class="flex align-baseline text-sm">
