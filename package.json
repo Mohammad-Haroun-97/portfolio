@@ -43,5 +43,8 @@
     "vercel": "^28.4.17",
     "vite": "4.1.4",
     "vite-tsconfig-paths": "3.5.0"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^0.1.11"
   }
 }
