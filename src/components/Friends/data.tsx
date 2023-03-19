@@ -74,4 +74,10 @@ export const data: FriendsT[] = [
     description: ["Intrasfot Middle East", "Frontend Developer ☕"],
     link: "https://github.com/RamiZregat",
   },
+  {
+    name: "Tareq Zeadeh",
+    image:"https://avatars.githubusercontent.com/u/83552902?v=4",
+    description: ["Sociumtech", "Full Stack Developer 🌯"],
+    link: "https://github.com/TareqZeadeh"
+  }
 ];
