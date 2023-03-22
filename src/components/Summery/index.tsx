@@ -60,15 +60,26 @@ export const Summery = component$(() => {
         </span>
         <div class="flex flex-col items-center gap-2 bg-auto transition-all md:items-start">
           <span class="font-semibold">Certificates</span>
-          <div class="flex w-80 flex-wrap justify-center gap-2 md:w-full">
+          <div class="flex w-80 flex-wrap justify-center gap-3 md:w-full">
             {certificates.map((certficate) => (
-              <span key={certficate.name?.toString()} class="flex h-32 w-32 items-center justify-center p-1">
-                <img
-                  src={certficate.badge.src}
-                  width=""
-                  height="100"
-                  alt="code fellows logo"
-                />
+              <span
+                key={certficate.name?.toString()}
+                class="flex items-center justify-center p-1 transition-all hover:scale-110 group"
+              >
+                <a href={certficate.badge.href} target="_blank">
+                  <img
+                    src={certficate.badge.src}
+                    width="80"
+                    height="80"
+                    alt="code fellows logo"
+                  />
+                </a>
+                {/* <span
+                  class="group-hover:opacity-100 transition-opacity bg-gradient-to-tr from-secondary to-main bg-\[length:140%\] px-1 text-sm text-gray-100 rounded-md absolute left-1/2 
+    -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto duration-500 p-1"
+                >
+                  {certficate.name}
+                </span> */}
               </span>
             ))}
           </div>
