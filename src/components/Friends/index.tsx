@@ -13,7 +13,7 @@ export const Friends = component$(() => {
         </p>
         <ul class="flex flex-wrap justify-center gap-y-14 text-center">
           {friends.map((friend) => (
-            <li class="flex w-full max-w-[290.66px] flex-col justify-between gap-2 px-0 sm:px-3">
+            <li key={friend.name?.toString()} class="flex w-full max-w-[290.66px] flex-col justify-between gap-2 px-0 sm:px-3">
               <div class="flex flex-col items-center gap-2">
                 <div class="relative  h-40 w-40 pointer-events-none">
                   <span
@@ -32,7 +32,7 @@ export const Friends = component$(() => {
                 </p>
                 <ul class="max-w-[345px]">
                   {friend.description.map((desc) => (
-                    <li>{desc}</li>
+                    <li key={desc?.toString()}>{desc}</li>
                   ))}
                 </ul>
               </div>

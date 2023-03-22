@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
-import { data, ExperienceT } from "./data";
+import type { ExperienceT } from "./data";
+import { data } from "./data";
 
 export const Experience = component$(() => {
 
@@ -15,7 +16,7 @@ export const Experience = component$(() => {
         </h2>
         <ul class="flex flex-wrap gap-6">
           {experiences.map((experience) => (
-            <li class="flex w-full gap-12 rounded-md border border-details bg-misc p-6 shadow-sm transition-all">
+            <li key={experience.companyName?.toString()} class="flex w-full gap-12 rounded-md border border-details bg-misc p-6 shadow-sm transition-all">
               <div class="flex flex-col justify-between gap-3">
                 <div class="flex items-center gap-2">
                   <img
@@ -39,14 +40,14 @@ export const Experience = component$(() => {
                   <li class="flex text-sm">
                     <ul>
                       {experience.positionDescription.map((desc) => (
-                        <li class="list-disc-custom flex">{desc}</li>
+                        <li key={desc?.toString()} class="list-disc-custom flex">{desc}</li>
                       ))}
                     </ul>
                   </li>
                 </ul>
                 <div class="flex flex-wrap gap-2">
                   {experience.positionSkills.map((skill) => (
-                    <span class="rounded-lg bg-misc p-1 transition-all">
+                    <span key={skill.skillAlt?.toString()} class="rounded-lg bg-misc p-1 transition-all">
                       <img
                         src={skill.skillLogo?.toString()}
                         width="24"

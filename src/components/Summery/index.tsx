@@ -1,6 +1,8 @@
 import { component$ } from "@builder.io/qwik";
+import { CertificateT, data } from "../Certificates/data";
 
 export const Summery = component$(() => {
+  const certificates: CertificateT[] = data;
   return (
     <div class="relative mb-12 flex w-full flex-col gap-4 px-2 md:mb-0 md:w-min md:p-3 md:px-4">
       <div class="relative mx-auto overflow-hidden w-72 h-72 md:w-[296px] md:h-[296px] pointer-events-none">
@@ -57,40 +59,18 @@ export const Summery = component$(() => {
           </h2>
         </span>
         <div class="flex flex-col items-center gap-2 bg-auto transition-all md:items-start">
-          <span class="font-semibold">Prefer Working With</span>
+          <span class="font-semibold">Certificates</span>
           <div class="flex w-80 flex-wrap justify-center gap-2 md:w-full">
-            <span class="bg-[#FEFEFE] flex h-16 w-16 items-center justify-center rounded-full border-4 border-[#FEFEFE] p-1 shadow-inner drop-shadow-center-2xl">
-              <img
-                src="/icons/JavaIcon.svg"
-                width="49"
-                height="49"
-                alt="java logo"
-              />
-            </span>
-            <span class="bg-[#FEFEFE] flex h-16 w-16 items-center justify-center rounded-full border-4 border-[#FEFEFE] p-1 shadow-inner drop-shadow-center-2xl">
-              <img
-                src="/icons/SpringIcon.svg"
-                width="49"
-                height="49"
-                alt="spring logo"
-              />
-            </span>
-            <span class="bg-[#FEFEFE] flex h-16 w-16 items-center justify-center rounded-full border-4 border-[#FEFEFE] p-1 shadow-inner drop-shadow-center-2xl">
-              <img
-                src="/icons/ReactIcon.svg"
-                width="49"
-                height="49"
-                alt="react logo"
-              />
-            </span>
-            <span class="bg-[#FEFEFE] flex h-16 w-16 items-center justify-center rounded-full border-4 border-[#FEFEFE] p-1 shadow-inner drop-shadow-center-2xl">
-              <img
-                src="/icons/TailwindIcon.svg"
-                width="49"
-                height="49"
-                alt="tailwind logo"
-              />
-            </span>
+            {certificates.map((certficate) => (
+              <span key={certficate.name?.toString()} class="flex h-32 w-32 items-center justify-center p-1">
+                <img
+                  src={certficate.badge.src}
+                  width=""
+                  height="100"
+                  alt="code fellows logo"
+                />
+              </span>
+            ))}
           </div>
         </div>
         <div class="flex flex-col items-center gap-1 md:items-start">

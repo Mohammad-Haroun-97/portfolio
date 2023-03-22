@@ -1,5 +1,4 @@
 import { component$ } from "@builder.io/qwik";
-import { Certificates } from "../Certificates";
 import { Experience } from "../Experiance";
 import { Friends } from "../Friends";
 import { Knowledge } from "../Knowledge";
@@ -12,7 +11,7 @@ export const Main = component$(() => {
       </div>
       <div class="flex flex-col gap-9 px-4 pb-32">
         <Experience />
-        <Certificates />
+        {/* <Certificates /> */}
         <Knowledge />
         <Friends />
       </div>

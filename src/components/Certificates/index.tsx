@@ -14,7 +14,7 @@ export const Certificates = component$(() => {
         </h2>
         <ul class="flex flex-wrap gap-6">
           {certificates.map((certificate) => (
-            <li class="flex flex-col md:flex-row justify-start w-full gap-6 rounded-md border border-details bg-misc p-6 shadow-sm transition-all">
+            <li key={certificate.comapny?.toString()} class="flex flex-col md:flex-row justify-start w-full gap-6 rounded-md border border-details bg-misc p-6 shadow-sm transition-all">
               <div class="flex flex-col justify-between gap-3">
                 <div class="flex items-center gap-2">
                   <img
