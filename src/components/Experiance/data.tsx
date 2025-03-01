@@ -185,6 +185,7 @@ export const data: ExperienceT[] = [
       "Assisted in the development and maintenance of user interfaces using HTML, CSS, and JavaScript.",
       "Helped design and implement responsive layouts, adapting websites to different screen sizes and devices.",
     ],
+
     positionSkills: [
 
       {
