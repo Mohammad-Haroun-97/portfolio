@@ -11,41 +11,7 @@ export type KnowledgeT = {
 };
 
 export const data: KnowledgeT[] = [
-  {
-    field: "Backend",
-    desc: [
-      {
-        name: "Java",
-        image: "/icons/JavaIcon.svg",
-        alt: "java logo",
-        prefer: true,
-      },
-      {
-        name: "SpringBoot",
-        image: "/icons/SpringIcon.svg",
-        alt: "spring logo",
-        prefer: true,
-      },
-      {
-        name: "NodeJS",
-        image: "/icons/NodeIcon.svg",
-        alt: "node logo",
-        prefer: false,
-      },
-      {
-        name: "ExpressJS",
-        image: "/icons/ExpressIcon.svg",
-        alt: "express logo",
-        prefer: false,
-      },
-      {
-        name: "NestJS",
-        image: "/icons/NestJSIcon.svg",
-        alt: "nest logo",
-        prefer: false,
-      },
-    ],
-  },
+
   {
     field: "Frontend",
     desc: [
@@ -65,14 +31,9 @@ export const data: KnowledgeT[] = [
         name: "Tailwind",
         image: "/icons/TailwindIcon.svg",
         alt: "tailwind logo",
-        prefer: true,
-      },
-      {
-        name: "Qwik",
-        image: "/icons/QwikIcon.svg",
-        alt: "qwik logo",
         prefer: false,
       },
+
       {
         name: "HTML",
         image: "/icons/HtmlIcon.svg",
@@ -95,13 +56,19 @@ export const data: KnowledgeT[] = [
         name: "TypeScript",
         image: "/icons/TSIcon.svg",
         alt: "ts logo",
-        prefer: false,
+        prefer: true,
       },
       {
         name: "MaterialUI",
         image: "/icons/MaterialUiIcon.svg",
         alt: "material ui logo",
-        prefer: false,
+        prefer: true,
+      },
+      {
+        name: "Ant design",
+        image: "/icons/ant-design-2.svg",
+        alt: "jest logo",
+        prefer: true,
       },
       {
         name: "Bootstrap",
@@ -113,19 +80,19 @@ export const data: KnowledgeT[] = [
         name: "Redux",
         image: "/icons/ReduxIcon.svg",
         alt: "redux logo",
-        prefer: false,
+        prefer: true,
       },
       {
         name: "React Router",
         image: "/icons/ReactRouterIcon.svg",
         alt: "react router logo",
-        prefer: false,
+        prefer: true,
       },
       {
         name: "React Query",
         image: "/icons/ReactQueryIcon.svg",
         alt: "react query logo",
-        prefer: false,
+        prefer: true,
       },
       {
         name: "Jest",
@@ -133,6 +100,55 @@ export const data: KnowledgeT[] = [
         alt: "jest logo",
         prefer: false,
       },
+      {
+        name: "Styled components",
+        image: "/icons/styled-components-1.svg",
+        alt: "jest logo",
+        prefer: true,
+      },
+      {
+        name: "RXJS",
+        image: "/icons/rxjs-1.svg",
+        alt: "redux logo",
+        prefer: false,
+      },
+      {
+        name: "Vue",
+        image: "https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg",
+        alt: "redux logo",
+        prefer: true,
+      },
+      {
+        name: "React Native",
+        image: "/icons/react-native-1.svg",
+        alt: "redux logo",
+        prefer: false,
+      },
+    ],
+  },
+  {
+    field: "Backend",
+    desc: [
+      {
+        name: "Java",
+        image: "/icons/JavaIcon.svg",
+        alt: "java logo",
+        prefer: false,
+      },
+
+      {
+        name: "NodeJS",
+        image: "/icons/NodeIcon.svg",
+        alt: "node logo",
+        prefer: true,
+      },
+      {
+        name: "ExpressJS",
+        image: "/icons/ExpressIcon.svg",
+        alt: "express logo",
+        prefer: false,
+      },
+
     ],
   },
   {
@@ -142,31 +158,21 @@ export const data: KnowledgeT[] = [
         name: "PostgreSQL",
         image: "/icons/PostgresIcon.svg",
         alt: "postgres logo",
-        prefer: true,
+        prefer: false,
       },
       {
         name: "MongoDB",
         image: "/icons/MongodbIcon.svg",
         alt: "mongodb logo",
-        prefer: true,
-      },
-      {
-        name: "DyanmoDB",
-        image: "/icons/DynamoDbIcon.svg",
-        alt: "dynamodb logo",
         prefer: false,
       },
+
     ],
   },
   {
     field: "Tools",
     desc: [
-      {
-        name: "Linux",
-        image: "/icons/LinuxIcon.svg",
-        alt: "linux logo",
-        prefer: true,
-      },
+
       {
         name: "Git",
         image: "/icons/GitIcon.svg",
@@ -177,13 +183,13 @@ export const data: KnowledgeT[] = [
         name: "NPM",
         image: "/icons/NpmIcon.svg",
         alt: "npm logo",
-        prefer: false,
+        prefer: true,
       },
       {
         name: "Yarn",
         image: "/icons/YarnIcon.svg",
         alt: "yarn logo",
-        prefer: false,
+        prefer: true,
       },
       {
         name: "Github",
@@ -191,12 +197,7 @@ export const data: KnowledgeT[] = [
         alt: "github logo",
         prefer: true,
       },
-      {
-        name: "Maven",
-        image: "/icons/MavenIcon.svg",
-        alt: "maven logo",
-        prefer: false,
-      },
+
       {
         name: "Docker",
         image: "/icons/DockerIcon.svg",
@@ -209,23 +210,19 @@ export const data: KnowledgeT[] = [
         alt: "jenkins logo",
         prefer: false,
       },
-    ],
-  },
-  {
-    field: "Cloud Computing",
-    desc: [
       {
-        name: "Amazon Web Services",
-        image: "/icons/AWSIcon3.svg",
-        alt: "aws logo",
+        name: "Gitlab",
+        image: "/icons/gitlab-1.svg",
+        alt: "jenkins logo",
         prefer: true,
       },
       {
-        name: "SAP Cloud Platform",
-        image: "/icons/SAPIcon.svg",
-        alt: "sap logo",
-        prefer: false,
+        name: "Bitbucket",
+        image: "/icons/bitbucket-icon.svg",
+        alt: "jenkins logo",
+        prefer: true,
       },
     ],
   },
+
 ];

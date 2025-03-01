@@ -9,16 +9,22 @@ export type FriendsT = {
 
 export const data: FriendsT[] = [
   {
-    name: "Deyaa Bozan",
-    image: "https://avatars.githubusercontent.com/u/71646355?v=4",
-    description: ["Central Trade & Auto Co", "Full Stack Developer 😎"],
-    link: "https://github.com/deyaa-pozan",
+    name: "Abdallah Abu Khurma",
+    image: "https://avatars.githubusercontent.com/u/79832840?v=4",
+    description: ["Arabi Bank","Senior Frontend Developer 😎"],
+    link: "https://github.com/AbdallahAbuKhurma",
   },
   {
-    name: "Bara'a Al-Osaily",
-    image: "https://avatars.githubusercontent.com/u/81553898?v=4",
-    description: ["Capella Solutions", "Software Developer 🌯"],
-    link: "https://github.com/baraaAlosaily",
+    name: "Osaid Alhomedy",
+    image: "https://avatars.githubusercontent.com/u/83532081?v=4",
+    description: ["Network International", "Mid level backend Software Developer 🌯"],
+    link: "https://github.com/OsaidAlhomedy",
+  },
+  {
+    name: "Rami Zaitoun",
+    image: "https://avatars.githubusercontent.com/u/46257622?v=4",
+    description: ["Madfwatkoom", "Software Developer 🐍"],
+    link: "https://github.com/MasteRminD6666",
   },
   {
     name: "Rahaf Al-Jazzazi",
@@ -26,13 +32,7 @@ export const data: FriendsT[] = [
     description: ["Intrasoft Middle East", "Frontend Developer 👩‍🎨"],
     link: "https://github.com/RahafJ96",
   },
-  {
-    name: "Ghadeer Khasawneh",
-    image: "https://avatars.githubusercontent.com/u/83525457?v=4",
 
-    description: ["Sociumtech", "Fullstack Developer 👷‍♀️"],
-    link: "https://github.com/GhadeerKh9",
-  },
   {
     name: "Tamim Hamoudi",
     image: "https://avatars.githubusercontent.com/u/18720062?v=4",
@@ -43,31 +43,7 @@ export const data: FriendsT[] = [
     ],
     link: "https://github.com/thamudi",
   },
-  {
-    name: "Mohammad Alzoubi",
-    image: "https://avatars.githubusercontent.com/u/83534673?v=4",
-    description: ["OPTIMIZA", "Fullstack Developer 🍕"],
-    link: "https://github.com/macRos-Alzoubi",
-  },
-  {
-    name: "Mohammed Al-Hanbali",
-    image: "https://avatars.githubusercontent.com/u/85102863?v=4",
-    description: ["Avertra", "Software Developer 🐍"],
-    link: "https://github.com/Moha-AlHanbali",
-  },
-  {
-    name: "Majd Khasawneh",
-    image:
-      "https://media.licdn.com/dms/image/D4E03AQHZwgfgAPW1YA/profile-displayphoto-shrink_800_800/0/1665082714161?e=1684368000&v=beta&t=bX40raFlUj5edzQ87ctRVO7NVdwEcDou1W5Zvmbh_54",
-    description: ["MBC Shahid", "Java Developer 🎮"],
-    link: "https://www.linkedin.com/in/majd-khasawneh-687695192/",
-  },
-  {
-    name: "Hadi Aji",
-    image: "https://avatars.githubusercontent.com/u/70090253?v=4",
-    description: ["Avertra", "Software Developer 🤓"],
-    link: "https://github.com/Hadeaji",
-  },
+
   {
     name: "Rami Zregat",
     image: "https://avatars.githubusercontent.com/u/85101731?v=4",
@@ -75,9 +51,16 @@ export const data: FriendsT[] = [
     link: "https://github.com/RamiZregat",
   },
   {
-    name: "Tareq Zeadeh",
-    image:"https://avatars.githubusercontent.com/u/83552902?v=4",
+    name: "Hasnaa",
+    image:"https://avatars.githubusercontent.com/u/86597086?v=4",
     description: ["Sociumtech", "Full Stack Developer 🌯"],
-    link: "https://github.com/TareqZeadeh"
-  }
+    link: "https://github.com/orgs/support-team-codefellows/people/hasnaa38"
+  },
+  {
+    name: "Ghadeer Khasawneh",
+    image: "https://avatars.githubusercontent.com/u/83525457?v=4",
+
+    description: ["Sociumtech", "Fullstack Developer 👷‍♀️"],
+    link: "https://github.com/GhadeerKh9",
+  },
 ];

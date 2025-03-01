@@ -34,11 +34,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Osaid Alhomedy",
+  title: "Mohammad Haroun",
   meta: [
     {
       name: "description",
-      content: "Osaid Alhomedy's Portfolio",
+      content: "Mohammad Haroun's Portfolio",
     },
   ],
 };

@@ -12,14 +12,14 @@ export const Summery = component$(() => {
         ></span>
         <span class="absolute left-[4px] top-[4px] h-[calc(100%-8px)] w-[calc(100%-8px)] rounded-full bg-auto transition-all"></span>
         <img
-          src="/images/pp.jpg"
-          alt="Osaid Profile Picture"
+          src="/images/kk.png"
+          alt="Haroun Profile Picture"
           class="absolute left-[7px] top-[7px] h-[calc(100%-14px)] w-[calc(100%-14px)] rounded-full grayscale-[0.1]"
         />
       </div>
       <span class="top-[312px] left-0 z-20 flex w-full flex-col bg-auto p-3 text-center transition-all md:absolute md:text-left">
-        <span class="text-2xl font-semibold">Osaid Alhomedy</span>
-        <span class="text-lg">2 years of experience</span>
+        <span class="text-2xl font-semibold">Mohammad Haroun</span>
+        <span class="text-lg">3 years and 6 months of experience</span>
       </span>
       <div class="sticky top-0 left-0 flex flex-col gap-4">
         <span class="z-10 hidden md:flex mb-2 h-[48.7px] items-center gap-2 border-b border-details bg-auto p-2 transition-all">
@@ -30,17 +30,17 @@ export const Summery = component$(() => {
             ></span>
             <span class="absolute  rounded-full bg-auto transition-all"></span>
             <img
-              src="/images/pp.jpg"
-              alt="Osaid Alhomedy photo"
+              src="/images/kk.png"
+              alt="Mohammad Haroun photo"
               class="absolute inset-0.5 h-8 w-8 rounded-full grayscale-[0.1]"
             />
           </div>
           <span class="flex items-baseline gap-2 text-xs">
-            <span class="text-sm font-semibold">Osaid Alhomedy</span>
+            <span class="text-sm font-semibold">Mohammad Haroun</span>
           </span>
         </span>
         <a
-          href="https://drive.google.com/file/d/17n32lv0XkhRBDRhk_p-QsXr_b4KhoaGU/view?usp=share_link"
+          href="https://drive.google.com/file/d/1ktiJQzF6GpDrOKedqxG4rTOgeugyggPK/view?usp=sharing"
           target="_blank"
           rel="noreferrer nofollow"
           class="flex justify-center"
@@ -53,7 +53,7 @@ export const Summery = component$(() => {
           </button>
         </a>
         <span class="flex flex-wrap justify-center md:justify-start">
-          <h1 class="text-xl text-center">Full Stack Developer 🔥 (⌐■_■)</h1>
+          <h1 class="text-xl text-center">Frontend Javascript Developer 🔥 (⌐■_■)</h1>
           <h2 class="text-md mt-2 text-left px-6 md:px-0">
             Creating powerful web applications, one stack at a time.
           </h2>
@@ -88,7 +88,7 @@ export const Summery = component$(() => {
           <span class="font-semibold">Contact</span>
           <a
             target="_blank"
-            href="mailto:o.alhomedy@gmail.com"
+            href="mailto:mohammadharoun44@gmail.com"
             class="flex select-all items-center gap-2 text-sm"
           >
             <svg
@@ -108,11 +108,11 @@ export const Summery = component$(() => {
                 strokeLinejoin="round"
               ></path>
             </svg>
-            <span>o.alhomedy@gmail.com</span>
+            <span>mohammadharoun44@gmail.com</span>
           </a>
           <a
             target="_blank"
-            href="https://github.com/OsaidAlhomedy"
+            href="https://github.com/Mohammad-Haroun-97"
             class="flex items-center gap-2 text-sm"
           >
             <svg
@@ -133,7 +133,7 @@ export const Summery = component$(() => {
           </a>
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/osaid-alhomedy/"
+            href="https://www.linkedin.com/in/mohammad-haroun-a231691a2/"
             class="flex items-center gap-2 text-sm"
           >
             <svg

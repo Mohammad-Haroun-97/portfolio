@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "Osaid Alhomedy Portfolio",
+  "name": "Mohammad Haroun Portfolio",
   "short_name": "Welcome to my portfolio",
   "start_url": ".",
   "display": "standalone",
