@@ -86,7 +86,7 @@ export const data: ExperienceT[] = [
       },
       {
         skillAlt: "TypeScript logo",
-        skillLogo: "/icons/TsIcon.svg",
+        skillLogo: "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
       },
       {
         skillAlt: "Postman",
@@ -130,7 +130,7 @@ export const data: ExperienceT[] = [
       },
       {
         skillAlt: "MaterialUI logo",
-        skillLogo: "/icons/MaterialUIIcon.svg",
+        skillLogo: "/icons/MaterialUiIcon.svg",
       },
       {
         skillAlt: "storybook logo",
@@ -163,7 +163,7 @@ export const data: ExperienceT[] = [
       },
       {
         skillAlt: "TypeScript logo",
-        skillLogo: "/icons/TsIcon.svg",
+        skillLogo: "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
       },
       {
         skillAlt: "JEST logo",
@@ -185,6 +185,7 @@ export const data: ExperienceT[] = [
       "Assisted in the development and maintenance of user interfaces using HTML, CSS, and JavaScript.",
       "Helped design and implement responsive layouts, adapting websites to different screen sizes and devices.",
     ],
+
     positionSkills: [
 
       {
@@ -223,7 +224,7 @@ export const data: ExperienceT[] = [
 
       {
         skillAlt: "TypeScript logo",
-        skillLogo: "/icons/TsIcon.svg",
+        skillLogo: "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
       },
       {
         skillAlt: "NX logo",
