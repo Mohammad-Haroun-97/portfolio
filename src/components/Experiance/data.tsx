@@ -13,12 +13,7 @@ export type ExperienceT = {
   }[];
 };
 
-const calculateDateFromToday = (date: Date): JSXChildren => {
-  const today = new Date();
-  const diff = Math.abs(today.getTime() - date.getTime());
-  const diffInMonths = Math.ceil(diff / (1000 * 3600 * 24 * 30));
-  return diffInMonths;
-};
+
 
 export const data: ExperienceT[] = [
   {
