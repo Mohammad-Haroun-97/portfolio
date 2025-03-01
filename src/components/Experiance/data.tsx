@@ -187,7 +187,7 @@ export const data: ExperienceT[] = [
       "Responsible for building Mobile application using React Native and combine all features\n" +
       "using NX workspace",
       "Ensured cross-browser compatibility and optimized web pages for performance and user experience.",
-        "Assisted in the development and maintenance of user interfaces using HTML, CSS, and JavaScript.",
+      "Assisted in the development and maintenance of user interfaces using HTML, CSS, and JavaScript.",
       "Helped design and implement responsive layouts, adapting websites to different screen sizes and devices.",
     ],
     positionSkills: [
