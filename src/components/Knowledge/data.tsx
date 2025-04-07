@@ -126,49 +126,7 @@ export const data: KnowledgeT[] = [
       },
     ],
   },
-  {
-    field: "Backend",
-    desc: [
-      {
-        name: "Java",
-        image: "/icons/JavaIcon.svg",
-        alt: "java logo",
-        prefer: false,
-      },
 
-      {
-        name: "NodeJS",
-        image: "/icons/NodeIcon.svg",
-        alt: "node logo",
-        prefer: true,
-      },
-      {
-        name: "ExpressJS",
-        image: "/icons/ExpressIcon.svg",
-        alt: "express logo",
-        prefer: false,
-      },
-
-    ],
-  },
-  {
-    field: "Database",
-    desc: [
-      {
-        name: "PostgreSQL",
-        image: "/icons/PostgresIcon.svg",
-        alt: "postgres logo",
-        prefer: false,
-      },
-      {
-        name: "MongoDB",
-        image: "/icons/MongodbIcon.svg",
-        alt: "mongodb logo",
-        prefer: false,
-      },
-
-    ],
-  },
   {
     field: "Tools",
     desc: [

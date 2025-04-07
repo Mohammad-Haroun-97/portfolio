@@ -20,7 +20,7 @@ export const Certificates = component$(() => {
                   <img
                     src={certificate.logo}
                     alt={certificate.alt}
-                    class="h-7 w-7"
+                    class="h-4 w-4"
                   />
                   <div class="flex items-baseline gap-2">
                     <p class="flex gap-4 align-baseline font-squada text-sm">
@@ -41,8 +41,8 @@ export const Certificates = component$(() => {
                   <a href={certificate.badge.href} target="_blank">
                     <img
                       src={certificate.badge.src}
-                      width="100"
-                      height="100"
+                      width="50"
+                      height="50"
                       alt="java logo"
                     />
                   </a>

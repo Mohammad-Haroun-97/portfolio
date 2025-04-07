@@ -53,11 +53,11 @@ export const data: CertificateT[] = [
     {
         name: "IELTS",
         comapny: "Unihouse",
-        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpWewP5ftfW-R4SoBZSieWoyQzKuiac8k5zg&s",
+        logo: "/images/ieltsss-removebg-preview.png",
         alt: "ielts Logo",
         badge: {
             href: "https://drive.google.com/file/d/1i65oCiosAoYXpSh4kQn983tFrxnLzYws/view",
-            src: "https://www.liblogo.com/img-logo/ie4461j5da-ielts-logo-jpbt-tech.png",
+            src: "/images/ieltsss-removebg-preview.png",
             alt: "ielts Badge",
         },
         description: [

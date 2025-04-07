@@ -12,7 +12,7 @@ export const Summery = component$(() => {
         ></span>
         <span class="absolute left-[4px] top-[4px] h-[calc(100%-8px)] w-[calc(100%-8px)] rounded-full bg-auto transition-all"></span>
         <img
-          src="/images/kk.png"
+          src="/images/IMG_0912-Photoroom.jpg"
           alt="Haroun Profile Picture"
           class="absolute left-[7px] top-[7px] h-[calc(100%-14px)] w-[calc(100%-14px)] rounded-full grayscale-[0.1]"
         />
@@ -30,7 +30,7 @@ export const Summery = component$(() => {
             ></span>
             <span class="absolute  rounded-full bg-auto transition-all"></span>
             <img
-              src="/images/kk.png"
+              src="/images/IMG_0912-Photoroom.jpg"
               alt="Mohammad Haroun photo"
               class="absolute inset-0.5 h-8 w-8 rounded-full grayscale-[0.1]"
             />
@@ -40,7 +40,7 @@ export const Summery = component$(() => {
           </span>
         </span>
         <a
-          href="https://drive.google.com/file/d/1ktiJQzF6GpDrOKedqxG4rTOgeugyggPK/view?usp=sharing"
+          href="https://drive.google.com/file/d/1ha5Vxwl1wMipvb3rrRflX5YTYbKqkD4y/view?usp=sharing"
           target="_blank"
           rel="noreferrer nofollow"
           class="flex justify-center"
